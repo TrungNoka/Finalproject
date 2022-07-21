@@ -1,0 +1,8 @@
+@extends('layouts.master')
+@section('content')
+    @include('finalproject.child.checkout')
+    @include('finalproject.child.info')
+    @include('finalproject.child.sidebar')
+    @include('finalproject.child.selector')
+    @include('finalproject.child.product')
+@endsection()
